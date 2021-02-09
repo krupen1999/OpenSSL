@@ -1,0 +1,24 @@
+{
+	"name": "openssl",
+	"version": "0.0.1",
+	"description": "Cryptr",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js",
+		"watch": "nodemon index.js"
+	},
+	"author": "Krupen Shah",
+	"license": "MIT",
+	"dependencies": {
+		"body-parser": "^1.19.0",
+		"crypto-js": "^3.1.9-1",
+		"ejs": "^2.7.1",
+		"express": "^4.17.1",
+		"get-ssl-certificate": "^2.3.3"
+	},
+	"devDependencies": {
+		"morgan": "^1.9.1",
+		"nodemon": "^1.19.4"
+	}
+}
